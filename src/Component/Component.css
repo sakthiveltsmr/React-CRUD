@@ -1,0 +1,40 @@
+@media screen and (min-width: 2560px) {
+  body,
+  div,
+  .navbar-brand {
+    font-size: 1.5vw;
+  }
+}
+.brand:hover {
+  cursor: grab;
+}
+
+.headermove {
+  position: absolute;
+  background-color: #440e0e;
+  width: 25%;
+  top: 0;
+  height: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  transform: translateX(-100%);
+  transition: 1s ease;
+}
+
+.navdiv {
+  color: white;
+  font-size: 4vh;
+}
+.navlink:hover {
+  text-decoration: none;
+  color: black;
+}
+.navdiv:hover,
+.navdiv:hover .navlink {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.activenavlink {
+  color: rgb(118, 252, 113);
+}
